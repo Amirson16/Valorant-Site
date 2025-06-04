@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.topo{
+    background-color: #ECE8E1;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+.topo a {
+    /* Alinha texto do menu no centro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    text-align: center;
+    border-radius: 10%;
+    color:black;
+
+
+
+    width: 6em;
+    height: auto;
+
+    /* remove sublinhado */
+    text-decoration: none;
+}
+
+/* alterar cor dos botoes do menu e deixar negrito ao passar cursor*/
+.topo a:hover{
+    background-color: #E1E5EC;
+    font-weight: bold;
+}
+
+a:visited{
+    color:black;
+}
+
+.menu {
+    display: flex;
+    width: 80%;
+
+}
+
+.menu a{
+    margin-right: 1%;
+}
+.logo {
+    align-self: flex-end;
+    order: -1;
+}
+
+.logo img{
+    width: 6em;
+    align-self: flex-end;
+}

@@ -1,0 +1,78 @@
+body{
+    overflow: hidden;
+}
+
+.bigBox{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 40em 50%;
+    width: 80%;
+    padding: 20px;
+}
+
+img{
+    object-fit: cover;
+}
+
+p{
+    text-justify: distribute;
+}
+
+.primeiroparagra{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    padding: 10px;
+
+}
+.segundoparagrafo{
+    width: 100%;
+
+}
+.divisao{
+    margin-left: 10%;
+    width: 50%;
+    text-align: center;
+    text-justify: auto;
+}
+
+.divisao h2{
+    text-align: justify;
+    text-align: center;
+    font-weight: normal;
+}
+
+.texto{
+    margin-left: 5em;
+    width: 100%;
+}
+.texto p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.texto2{
+    margin-left: 5em;
+    width: 100%;
+    margin-top: 5em;
+}
+.texto2 p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+.divisao2 img{
+    border-radius: 10px;
+    height: 30vh;
+}
+
+.divisao3 img{
+    margin-top: 5em;
+    border-radius: 10px;
+}
